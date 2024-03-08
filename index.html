@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    @font-face {
+      font-family: 'Pretendard-Regular';
+      src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 55%;
+      object-fit: contain;
+    }
+
+    .swiper-slide p {
+      font-family: 'Pretendard-Regular';
+      line-height: 1.5;
+    }
+
+    .swiper-slide a {
+      width: 130px;
+      height: 40px;
+      color: #fff;
+      background: #004265;
+      border-radius: 25px 0 25px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./images/2021_01.jpg">
+        <p>한솔 하진 없는 가족사진st</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_02.jpg">
+        <p>잊고 있었슴니다..개존맛 레시피</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_03.jpg">
+        <p>한솔좌 치과 오면 국룰 네컷</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_04.jpg">
+        <p>안경 자랑 time</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_05.jpg">
+        <p>보름 없는 모임</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_06.jpg">
+        <p>하진이 인생샷 건져주기</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_07.jpg">
+        <p>훠뤄뤕-</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_09.jpg">
+        <p>왕 고구마 팔뚝 </p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_10.jpg">
+        <p>감자 얼굴</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_11.jpg">
+        <p>저 사진들 중에서 저 모자 정리하는 게<br>마음에 드신다던 한솔좌..</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_12.jpg">
+        <p>코로나 절대 안 걸릴 듯;</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_13.jpg">
+        <p>한솔좌 어머니 생신 P.A.R.T.Y~~~<br>우리는 요리사.👨🏻‍🍳</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_15.jpg">
+        <p>오닥구들</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_16.jpg">
+        <p>내 등은 거들 뿐</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_17.jpg">
+        <p>붤음이랑 역동적 네컷 성공-</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_18.jpg">
+        <p>한솔좌 보이푸렝드와 함께-</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_19.jpg">
+        <p>가발로 채운 자신감</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_20.jpg">
+        <p>스우파 시절이라 아이키 컨셉함😎</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_21.jpg">
+        <p>레전드 탄생-</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_22.jpg">
+        <p>인생네컷 핵많네여ㅋㅋㅋㅋㅋㅋ</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_23.jpg">
+        <p>한솔 없는 모임😂</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="./images/2021_24.jpg">
+        <p>21년도 사진도 잘 보셨나여?</p>
+      </div>
+      <div class="swiper-slide">
+        <a href="https://jeongearth.github.io/since_intro/">돌아가기~</a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+
+  </style>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
